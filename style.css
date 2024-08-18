@@ -1,0 +1,127 @@
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: #0b5011;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.box {
+    background-color: #15ff00;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    margin: 0 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box:hover {
+    background-color: #ddd;
+}
+
+.box p {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+
+.info {
+    left: 1000px;
+    display: none;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #0e0606;
+    border-radius: 8px;
+    background-color: #585858;
+    width: 80%;
+    color: #ddd;
+    font-size: 16px;
+}
+
+.info h2 {
+    color: #00ff08;
+}
+.cidade {
+    height: 200px;
+    position: absolute;
+    left: 26%;
+    display: block;
+    top: 65%;
+}
+
+.seta {
+    height: 200px;
+    position: absolute;
+    top: 65%;
+    
+}
+
+.campoimg {
+    height: 200px;
+    position: absolute;
+    left: 52%;
+    display: block;
+    top: 65%;
+}
+
+.tabelacampo {
+    color: #09ff00;
+}
+
+.seta2 {
+    height: 200px;
+    position: absolute;
+    rotate: 100%;
+    top: 65%;
+    
+}
+
+.cidade2 {
+    height: 200px;
+    position: absolute;
+    left: 53%;
+    display: block;
+    top: 65%;
+}
+
+.campoimg2 {
+    height: 200px;
+    position: absolute;
+    right: 60%;
+    display: block;
+    top: 65%;
+}
+
+.tabelacidade {
+    color: #09ff00;
+}
+
+.logo {
+    height: 230px;
+    align-items: center;
+}
